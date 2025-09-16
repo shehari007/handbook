@@ -586,7 +586,7 @@ The listener receives an object with the following structure:
 ```javascript
 {
     kicked: {
-        id: string, // the id of the participant removed from the room
+        id: string, // the id of the participant removed from the room ---- > it always returns 'local' no id is provided
         local: boolean // whether or not the participant is the local particiapnt
     },
     kicker: {
