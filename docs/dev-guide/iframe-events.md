@@ -341,7 +341,6 @@ The listener receives an object with the following structure:
     nick: string, // the nickname of the user that sent the message
     privateMessage: boolean, // whether this is a private or group message
     message: string // the text of the message
-    stamp: string // the message timestamp as string (ISO-8601)
 }
 ```
 
